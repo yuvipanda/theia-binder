@@ -1,8 +1,6 @@
 #!/bin/bash
 
-export USE_LOCAL_GIT=true
-(cd theia && ../node_modules/.bin/yarn theia start /home/jovyan --hostname=0.0.0.0 &)
-
+export PATH=$(pwd)/thea/node_modules/.bin:${PATH}
 
 exec "$@"
 
