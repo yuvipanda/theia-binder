@@ -3,3 +3,4 @@ flake8
 autopep8
 scikit-learn
 jupyter-theia-proxy
+jupyterlab
