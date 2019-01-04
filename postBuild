@@ -8,3 +8,5 @@ cd theia
     rm -rf ./node_modules/electron && \
     ../node_modules/.bin/yarn cache clean
     
+jlpm install jupyterlab-server-proxy
+    
