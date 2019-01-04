@@ -1,11 +1,11 @@
 #!/bin/bash
+set -euo pipefail
 
 npm install yarn
 
-cd node_modules/.bin/yarn && \
+node_modules/.bin/yarn && \
     node_modules/.bin/yarn theia build && \
     rm -rf node_modules/electron && \
     node_modules/.bin/yarn cache clean
     
 jupyter labextension install jupyterlab-server-proxy
-    
