@@ -3,4 +3,4 @@ flake8
 autopep8
 scikit-learn
 jupyter-theia-proxy
-jupyterlab
+jupyterlab>=0.35
